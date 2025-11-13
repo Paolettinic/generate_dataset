@@ -1,0 +1,41 @@
+Genera tre domande a risposta multipla basate sul Contesto e sulla Descrizione dell’immagine riportati di seguito.
+
+Le domande devono:
+- Fare riferimento alle informazioni ricavabili dal contesto.
+- Non descrivere esplicitamente l’immagine.
+- Non suggerire direttamente cosa è presente nell’immagine.
+- Evitare domande su dettagli puramente visivi.
+- Ogni domanda deve avere 4 opzioni (a, b, c, d) con una sola risposta corretta.
+
+Contesto: {context}
+
+Descrizione dell’immagine: {caption}
+
+Output richiesto (in formato JSON):
+[
+  {
+    "question": "...",
+    "a": "...",
+    "b": "...",
+    "c": "...",
+    "d": "...",
+    "correct": "a"|"b"|"c"|"d"
+  },
+  {
+    "question": "...",
+    "a": "...",
+    "b": "...",
+    "c": "...",
+    "d": "...",
+    "correct": "a"|"b"|"c"|"d"
+  },
+  {
+    "question": "...",
+    "a": "...",
+    "b": "...",
+    "c": "...",
+    "d": "...",
+    "correct": "a"|"b"|"c"|"d"
+  }
+]
+
